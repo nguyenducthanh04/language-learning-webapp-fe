@@ -1,0 +1,50 @@
+.header_home {
+    background: #f5b041;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_img {
+    width: 80px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+}
+.btn_header {
+    display: flex;
+    align-items: center;
+}
+.btn_change_language {
+    margin-right: 30px;
+}
+.change_language {
+    cursor: pointer;
+    color: rgb(34, 34, 30);
+    margin-right: 6px;
+}
+.icon_change {
+    cursor: pointer;
+    color: rgb(81, 81, 68);
+}
+.login {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    background: transparent;
+    border: solid 1px black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+  .header {
+    width: 80%;
+  }
+}
