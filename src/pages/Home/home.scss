@@ -48,11 +48,74 @@
 }
 .overlay_text {
   position: absolute;
-  top: 20px;      
-  left: 20px;    
+  top: 170px;      
+  left: 200px;    
   color: white;
   font-size: 24px;
   font-weight: bold;
   z-index: 3;    
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7); 
+}
+.home_body {
+  margin-top: 50px;
+}
+.home_body_about {
+  text-align: center;
+}
+.home_body_feedback {
+  text-align: center;
+  margin-top: 50px;
+}
+.home_body_feedback_title {
+  margin-bottom: 40px;
+}
+.features_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.feedbacks_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//Css mobile 
+.home_banner_mobile {
+  background: #f5b041;
+}
+.home_banner_content_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_banner_content_slogan_mobile {
+  width: 80%;
+  text-align: center;
+  margin-top: 60px;
+}
+.btn_learning_start_mobile {
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.home_body_about_mobile {
+  text-align: center;
+  margin-top: 50px;
+}
+.home_body_feedback_mobile {
+  margin-top: 50px;
+  text-align: center;
+}
+.feedbacks_wrapper_mobile {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

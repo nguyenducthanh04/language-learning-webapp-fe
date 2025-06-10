@@ -1,0 +1,22 @@
+.feature_item {
+  text-align: center;
+  padding: 20px;
+  width: auto;
+
+  .feature_icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .feature_title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .feature_description {
+    font-size: 14px;
+    color: #555;
+  }
+}

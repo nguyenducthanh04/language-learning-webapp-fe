@@ -42,6 +42,11 @@
     border: solid 1px black;
     font-weight: bolder;
     cursor: pointer;
+    &:hover {
+    background-color: #f9f1d8;
+    transform: scale(1.05);
+    border: none;
+  }
 }
 @media (max-width: 768px) {
   .header {
